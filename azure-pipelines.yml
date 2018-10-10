@@ -4,13 +4,11 @@
 # https://aka.ms/yaml
 
 pool:
-  vmImage: 'Ubuntu 16.04'
+  vmImage: 'centos-test'
 
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-#- script: sh /tmp/test.sh
-#    echo Add other tasks to build, test, and deploy your project.
-#    echo See https://aka.ms/yaml
-#  displayName: 'Run a multi-line script'
+- bash: test.sh
+  displayName: 'Run a test.sh'
