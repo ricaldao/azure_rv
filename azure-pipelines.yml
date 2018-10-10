@@ -10,5 +10,5 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- bash: test.sh
+- bash: sh test.sh
   displayName: 'Run a test.sh'
