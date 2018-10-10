@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 pool:
-  vmImage: 'centos-test'
+  vmImage: 'Ubuntu 16.04'
 
 steps:
 - script: echo Hello, world!
